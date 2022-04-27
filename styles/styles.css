@@ -1,0 +1,44 @@
+.container-discs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Size tablet-landscape  */
+@media (min-width: 991px) and (max-width: 1324px) {
+    .container-discs{
+        background: #ff00d4; 
+        flex-direction: row;
+    }
+  
+}
+
+/* Size tablet  */
+@media (min-width: 477px) and (max-width: 990px) {
+    .container-discs{
+        background: #00ff2f;
+        align-content: center;
+    }
+
+    .card-title{
+        size: 100px;
+    }
+    .card-img, .card-img-bottom, .card-img-top {
+        width: 58%;
+    }
+    .container .container-discs .card{
+        width: 500px !important;
+
+    }
+    
+}
+
+
+/* Size mobile */
+@media (max-width: 478px) {
+    .container-discs{
+        background: #ff002b;   
+        align-content: center;
+    }  
+}
